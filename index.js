@@ -332,7 +332,7 @@ async function starts() {
 					break
 				case 'dono':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/d1M6lOz.jpg`)
+					buffer = await getBuffer(`https://i.imgur.com/Ll1RLEm.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:* Hideki* *WPP:* wa.me/+5511946462131\n*Twitter:* to sem aff \n\n\n*Digite *.bot* para ver comandos basicos para criar um bot'})
 					break
 				case 'belle2':
