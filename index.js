@@ -614,7 +614,7 @@ async function starts() {
 						mentions(from, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`Esse carinha aqui @${mentioned[0].split('@')[0]} agora é admin então respeitem ok?! 😂`, mentioned, true)
+						mentions(`Esse carinha aqui @${mentioned[0].split('@')[0]} agora é negro então respeitem ok?`, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break
